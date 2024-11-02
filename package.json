@@ -1,0 +1,23 @@
+{
+  "name": "project-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:consumer": "tsx --watch src/consumer.ts",
+    "dev:producer": "tsx --watch src/producer.ts",
+    "create:topics": "tsx src/create-topics.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "packageManager": "pnpm@8.15.5+sha1.a58c038faac410c947dbdb93eb30994037d0fce2",
+  "dependencies": {
+    "chance": "^1.1.12",
+    "kafkajs": "^2.2.4",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/chance": "^1.1.6"
+  }
+}
